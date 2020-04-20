@@ -340,7 +340,7 @@
 	</div>
 	<footer class="footer" id="myfooter">
 		<div class="container">
-			<p>Sock Data se come tu bocata  2019</p><br>
+			<a title="Web Oficial" id="fin" href="/"> Data se come tu bocata 2020</a>
 		</div>
 	</footer>
 	
@@ -348,33 +348,36 @@
 	
 	document.addEventListener("DOMContentLoaded", function() 
 	{
-		// code...
-		
-		function anchorLinkHandler(e) 
-		{
-		const distanceToTop = el => Math.floor(el.getBoundingClientRect().top);
+		function anchorLinkHandler(id) 
+		{ 
+			var el = document.getElementById(id);
 
-		e.preventDefault();
-		const targetID = this.getAttribute("href");
-		const targetAnchor = document.querySelector(targetID);
-		if (!targetAnchor) return;
-		const originalTop = distanceToTop(targetAnchor);
+	    	const distanceToTop = el => Math.floor(el.getBoundingClientRect().top);
 
-		window.scrollBy({ top: originalTop, left: 0, behavior: "smooth" });
+			const targetID = id;
+//			const targetAnchor = document.querySelector(targetID);
+			const targetAnchor = el;
 
-		const checkIfDone = setInterval(function() 
-		{
-			const atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2;
-			if (distanceToTop(targetAnchor) === 0 || atBottom) {
-				targetAnchor.tabIndex = "-1";
-				targetAnchor.focus();
-				window.history.pushState("", "", targetID);
-				clearInterval(checkIfDone);
-			}
-		}, 100);
+			if (!targetAnchor) return;
+			const originalTop = distanceToTop(targetAnchor);
+
+			window.scrollBy({ top: originalTop, left: 0, behavior: "smooth" });
+/*
+			const checkIfDone = setInterval(function() 
+			{
+				const atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2;
+				if (distanceToTop(targetAnchor) === 0 || atBottom) {
+					targetAnchor.tabIndex = "-1";
+					targetAnchor.focus();
+					window.history.pushState("", "", targetID);
+					clearInterval(checkIfDone);
+				}
+
+			}, 100);
+			*/
 		}
 
-		anchorLinkHandler("#myfooter");
+		anchorLinkHandler("fin");
 
 	});
 
