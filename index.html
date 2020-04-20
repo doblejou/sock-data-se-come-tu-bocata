@@ -343,25 +343,37 @@
 			<p>Sock Data se come tu bocata  2019</p><br>
 		</div>
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script>$(document).ready(function () {
+	
+	<script>
+	
+	function anchorLinkHandler(e) 
+	{
+    const distanceToTop = el => Math.floor(el.getBoundingClientRect().top);
 
-			$(window).on('beforeunload', function () {
-				var c = confirm();
-				if (c) {
-					return true;
-				}
-				else
-					return false;
-			});
+    e.preventDefault();
+    const targetID = this.getAttribute("href");
+    const targetAnchor = document.querySelector(targetID);
+    if (!targetAnchor) return;
+    const originalTop = distanceToTop(targetAnchor);
+
+    window.scrollBy({ top: originalTop, left: 0, behavior: "smooth" });
+
+	const checkIfDone = setInterval(function() 
+	{
+        const atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2;
+        if (distanceToTop(targetAnchor) === 0 || atBottom) {
+            targetAnchor.tabIndex = "-1";
+            targetAnchor.focus();
+            window.history.pushState("", "", targetID);
+            clearInterval(checkIfDone);
+        }
+    }, 100);
+	}
+
+	anchorLinkHandler("#myfooter");
 
 
-			$("html, body").animate({ scrollTop: $(document).height() }, 3500);
-			$('html, body').animate({ scrollTop: $(document).height() }, 2000);
-
-
-		});</script>
+	</script>
 </body>
 
 </html>
