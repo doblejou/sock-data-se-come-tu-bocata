@@ -13,3 +13,7 @@ sed -e s/!important//g -i ../css/sockdatasecometubocata.css
 du -h ../css/style.css
 
 du -h ../css/sockdatasecometubocata.css
+
+cd ..
+
+html-minifier --collapse-whitespace index-dev.html -o index.html
