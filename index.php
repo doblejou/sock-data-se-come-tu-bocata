@@ -24,7 +24,7 @@ if(isset($_GET['amp']))
 	<title>Sock Data se come tu bocata [CONCURSO SEO] Zaragoza 2020</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-	<meta name="description" content="Sock Data se come tu bocata. (21-04-2020 08:46) Guia de supervivencia para afrontar el concurso. Tips y últimas noticias del concurso SEO de 2020 en Zaragoza">
+	<meta name="description" content="Sock Data se come tu bocata. (<?php echo date("Y-m-d H:i:s"); ?>) Guia de supervivencia para afrontar el concurso. Tips y últimas noticias del concurso SEO de 2020 en Zaragoza">
 	<meta name="keywords" content="Sock Data se come tu bocata,seo,guia,manual,concurso,zaragoza,socket data, rosa">
     <meta name="author" content="Sock Data se come tu bocata"/>
     <meta name="geo.region" content="ES-AR" />
