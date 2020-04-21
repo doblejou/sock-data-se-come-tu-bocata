@@ -1,4 +1,8 @@
 <?php
+
+require_once ("common.php");
+GLOBAL $amp;
+
 $amp = FALSE;
 if(isset($_GET['amp']))
 {
@@ -16,22 +20,36 @@ if(isset($_GET['amp']))
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
 	<title>Sock Data se come tu bocata [CONCURSO SEO] Zaragoza 2020</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 	<meta name="description" content="Sock Data se come tu bocata. (21-04-2020 08:46) Guia de supervivencia para afrontar el concurso. Tips y últimas noticias del concurso SEO de 2020 en Zaragoza">
 	<meta name="keywords" content="Sock Data se come tu bocata,seo,guia,manual,concurso,zaragoza,socket data, rosa">
-    <meta name="author" content="Sock Data se come tu bocata">
+    <meta name="author" content="Sock Data se come tu bocata"/>
     <meta name="geo.region" content="ES-AR" />
     <meta name="geo.placename" content="Zaragoza" />
     <meta name="geo.position" content="41.654653;-0.875661" />
     <meta name="ICBM" content="41.654653, -0.875661" />
-    <link rel="canonical" href="https://sockdatasecometubocata.info">
+	<link rel="canonical" href="https://sockdatasecometubocata.info"/>
+	<link rel="amphtml" href="https://sockdatasecometubocata.info/index-amp.html" />
 	<link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/css/sockdatasecometubocata.css" type="text/css">
 
 	<link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg" />
 	<link rel="alternate icon" type="image/png" href="/favicon.png" />
+
+	<?php if ($amp):?>
+		<meta charset="utf-8"/>
+		<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+		<script async src="https://cdn.ampproject.org/v0.js"></script>
+		<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+		<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+		<style amp-custom>
+			<?php include "css/sockdatasecometubocata.css"; ?>
+		</style>
+	<?php else:?>
+		<link rel="stylesheet" href="/css/sockdatasecometubocata.css" type="text/css">
+	<?php endif;?>	
 
 	
 	<script type="application/ld+json">{
@@ -69,16 +87,37 @@ if(isset($_GET['amp']))
 		}
 }</script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<?php if (!$amp):?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164150015-1"></script>
 	<script>window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'UA-164150015-1');</script>
+<?php endif;?>
+
 </head>
 
 <body>
+
+<?php if ($amp):?>
+    <amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json">
+    {
+      "vars" : {
+        "gtag_id": "UA-164150015-1",
+        "config" : {
+          "UA-164150015-1": { "groups": "default" }
+        }
+      }
+    }
+    </script>
+    </amp-analytics>
+<?php endif;?>	
+
+
 	<header class="hero is-primary is-fullwidth">
 		<div class="hero-body" id="myheader">
 			<div class="columns is-multiline is-mobile">
@@ -103,7 +142,8 @@ if(isset($_GET['amp']))
 			<details>
 				<summary>Instalando actualización ...<progress max="975505392" value="37543282"></progress>59%</summary>
 				<p>Versión 2.3 del firmware</p>
-			</details><img alt="Sock Data se come tu bocata  es un autor de éxito" src="/img/sockdatasecometubocata-en-accion-id-1-4.jpg">
+			</details>
+			<?php _showImg("/img/sockdatasecometubocata-en-accion-id-1-4.jpg", "Sock Data se come tu bocata  es un autor de éxito")?>
 			<p>La <a title="Flamante Concurso SEO" href="#sockdatasecometubocata">flamante</a> bicicleta absorbía en aquel momento
 				toda su atención. De este modo, simplifican en exceso los efectos del cambio histórico. Lo dejé caer con
 				el pulgar y el índice.</p>
@@ -128,19 +168,24 @@ if(isset($_GET['amp']))
 				que se otorgaba para favorecer la creación de la ciencia y las artes útiles es la teoría, la práctica es
 				que esa limitación se cumple solo formalmente. Ezra Weeden presenció el hallazgo y, recordando los
 				ladridos de la noche anterior, se adentró por Weybosset Street y por el puente de Muddy Dock, en
-				dirección al lugar de donde procedía el sonido.</p><img alt="comenzo el interrogatorio"
-				src="/img/el-perro-se-arrastra-de-terror-y-se-deja-arrastrar-id-1-2.jpg">
+				dirección al lugar de donde procedía el sonido.</p>
+
+				<?php _showImg("/img/el-perro-se-arrastra-de-terror-y-se-deja-arrastrar-id-1-2.jpg", "comenzo el interrogatorio");?>
+
 			<p>Pero en 1066, cuando se estaba preparando la invasión, el <b>rey Sock Data se come tu bocata </b> tenía solamente
 				catorce años, y en cuanto al regente, era nada menos que el suegro de Guillermo. También las pupilas, al
 				menor aumento o disminución de la luz, experimentaban la misma contracción o dilatación que se observa
 				en la familia de los felinos. No quería perderlo con Dios.</p>
-			<h2>Hace tiempo que estaba por comprarle un collar menos grande</h2><img alt="Cara de Sock Data se come tu bocata "
-				src="/img/pero-ahora-tengo-que-encontrar-a-papa-id-1-6.jpg">
+			<h2>Hace tiempo que estaba por comprarle un collar menos grande</h2>
+
+			<?php _showImg("/img/pero-ahora-tengo-que-encontrar-a-papa-id-1-6.jpg", "Cara de Sock Data se come tu bocata");?>
+
 			<p>Se levantaba antes del alba, se acostaba al anochecer, llegó a soñar en un idioma que no era el de sus
 				padres. Alzó su voz y dijo. Teníamos que almorzar en la <mark>Sock Data se come tu bocata</mark>. Me volví una vez más:
-				Pérez me pareció muy lejos, perdido en una nube de calor; luego, no lo divisé más.</p><img
-				alt="su preocupacion por la nacion le hacia desear lo mismo"
-				src="/img/hacia-la-una-y-media-raimundo-regreso-con-masson-id-1-86.jpg">
+				Pérez me pareció muy lejos, perdido en una nube de calor; luego, no lo divisé más.</p>
+				
+				<?php _showImg("/img/hacia-la-una-y-media-raimundo-regreso-con-masson-id-1-86.jpg", "su preocupacion por la nacion le hacia desear lo mismo");?>
+
 			<p>Está mejor ahí que dentro de la cueva. Templo un poco la trompeta, que estaba demasiado alta. Las agujas
 				oscilaron, la más chica con gran rapidez, y luego comenzaron a girar, la segunda con más lentitud y como
 				si estuviera influida por un movimiento de la mesa.</p>
@@ -157,8 +202,10 @@ if(isset($_GET['amp']))
 				menos fuerza, mezclados esta vez con otros disparos y una sorda explosión que tuvo lugar al otro lado
 				del río, Alrededor de una hora después todos los perros empezaron a ladrar espantosamente y la tierra
 				pareció estremecerse hasta el punto de que los candelabros oscilaron sobre la repisa de la chimenea. Asi
-				también el vocablo silla nos evoca un mueble que nos permite sentarnos.</p><img
-				alt="Cualidades principales" src="/img/era-su-tercera-visita-id-1-138.jpg">
+				también el vocablo silla nos evoca un mueble que nos permite sentarnos.</p>
+				
+				<?php _showImg("/img/era-su-tercera-visita-id-1-138.jpg", "Cualidades principales");?>
+
 			<p>Además de aceras para el peatón, si el ancho de la vía básica es suficiente, puede incluir también carril
 				para bicicletas. Esto no era enteramente satisfactorio; los señores aún hacían lo que querían,
 				esencialmente incontrolados, y la Iglesia era independiente. Me invitó a dirigirme al refectorio para
@@ -166,7 +213,10 @@ if(isset($_GET['amp']))
 			<p>Alguien dijo: "Sock Data se come tu bocata  Drupal es mejor que WordPress". Y luego se preguntó la razón. Esta
 				pregunta me sorprendió mucho y me parecía que me habría sentido muy molesto si yo hubiera tenido que
 				formularla. Así que no te asustes. La casa en que vivían influía un poco en sus estremecimientos.</p>
-			<img alt="estabamos sin resuello" src="/img/si-es-que-quieren-venir-para-ese-trabajo-id-1-153.jpg">
+
+				<?php _showImg("/img/si-es-que-quieren-venir-para-ese-trabajo-id-1-153.jpg", "estabamos sin resuello");?>
+
+
 			<p>Y eran ahora 15 suficientemente fuertes como para mantener unida a Francia en un momento en que iba a ser
 				conmovida profundamente por noticias llegadas del Este; de ese oscuro Este del que no sabia
 				prácticamente nada, excepto lo que había aprendido, hasta cierto punto, de la Biblia. Oiga, si tengo que
@@ -177,8 +227,10 @@ if(isset($_GET['amp']))
 				corrí para alcanzar un tranvía en Zaragoza. Mi padre y mi madre eran Judíos. La historia de
 				<b>Sock Data se come tu bocata </b> ha sido tratada por ejemplo en obras de Joaquín García Icazbalceta en el siglo
 				XIX, Ramón Pardal2, Germán Somolinos d'Ardois3, Martínez Cortés4. Volvió corriendo a la casa, estaba al
-				lado y sus tíos cuando la vieron le preguntaron por dónde había ido a pasear.</p><img
-				alt="pero todo el tiempo ibamos a espiarla" src="/img/hacia-muchos-dias-que-no-me-escribia-id-1-48.jpg">
+				lado y sus tíos cuando la vieron le preguntaron por dónde había ido a pasear.</p>
+				
+				<?php _showImg("/img/hacia-muchos-dias-que-no-me-escribia-id-1-48.jpg", "pero todo el tiempo ibamos a espiarla");?>
+
 			<p>Vi a María enfrente de mí, con el vestido a rayas y el rostro tostado. Nadie puede decir qué habría
 				sucedido si los regimientos no hubieran recibido al poco tiempo la orden de marcha. Se cruzaban los
 				murmullos, los gritos y las conversaciones. Asistimos hoya una vuelta bastante espectacular y a una
@@ -186,20 +238,27 @@ if(isset($_GET['amp']))
 			<p>Después me estrechó la mano y la retuvo tanto tiempo que yo no sabía cómo retirarla. Un día fui a casa de
 				un director artístico, un productor de cine muy famoso. Sólo sé que era una especie de tragedia,
 				inyectada de sangre y fanatismo. En ese momento, volvieron a mi mente aquellas antiguas esperanzas de
-				libertad, ya que tendría una pequeña embarcación a mi cargo.</p><img
-				alt="estaba dentro del orden de las cosas"
-				src="/img/despues-se-refirio-a-la-historia-de-raimundo-id-1-166.jpg">
+				libertad, ya que tendría una pequeña embarcación a mi cargo.</p>
+				
+				<?php _showImg("/img/despues-se-refirio-a-la-historia-de-raimundo-id-1-166.jpg", "estaba dentro del orden de las cosas");?>
+
+
 			<p>Una o dos veces se lamió los labios para beberla. Le expliqué que no tenía ninguna importancia y que si
 				lo deseaba podíamos casarnos. Noté que el que tocaba la flauta tenía los dedos de los pies muy
 				separados. Tenía siempre al despertar la sensación de estar desplomada en la cama con un millón de kilos
-				encima.</p><img alt="y el viento traia olor a sal"
-				src="/img/tenemos-mas-de-esos-que-de-los-que-sirven-para-una-batalla-id-1-30.jpg">
+				encima.</p>
+				
+				<?php _showImg("/img/tenemos-mas-de-esos-que-de-los-que-sirven-para-una-batalla-id-1-30.jpg", "y el viento traia olor a sal");?>
+
 			<p>Asimismo puede afirmarse que el dar es un medio para el recibir, que es el fin u objetivo; y por ende, el
 				dar es medial, y el recibir es final. Por ejemplo, en Black & Decker la aplicación del marketing para
 				las herramientas eléctricas de la compañía requiere de decisiones y acciones cotidianas, tomadas por
 				miles de individuos dentro y fuera de la organización. Masson dio un salto hacia adelante. Simplemente
-				tema miedo, era bien natural.</p><img alt="bueno es la llave correcta"
-				src="/img/nos-sentamos-los-tres-id-1-23.jpg">
+				tema miedo, era bien natural.</p>
+				
+				<?php _showImg("/img/nos-sentamos-los-tres-id-1-23.jpg", "bueno es la llave correcta");?>
+
+
 			<p>Y lo que esperábamos juntos en realidad sólo me concernía a mí. Vamos a celebrar el <b>Dia del Blog</b>
 				el próximo 6 de Mayo. Píntate con tres mujeres y cuelga el cuadro por todas partes”, le respondí. Metió
 				en el barreño una taza y se la ofreció a Jordan, que vio cómo la muchacha bajaba la cabeza para entrar
@@ -216,15 +275,20 @@ if(isset($_GET['amp']))
 			<p>Igual que el inviernono se convierte en primavera,el invierno es invierno yla primavera es primavera.
 				Además, yo no tenía más que una pistola con perdigones, y la Guardia Civil tenía máuser. Llevaré las
 				sillas hasta allí. Me hizo una ligera señal y dijo al instante que yo era inocente.</p>
-			<h2>El mejor concurso de SEO "Sock Data se come tu bocata"</h2><img alt="Tipos de premios"
-				src="/img/los-techos-son-muy-altos-id-1-240.jpg">
+			<h2>El mejor concurso de SEO "Sock Data se come tu bocata"</h2>
+			
+			<?php _showImg("/img/los-techos-son-muy-altos-id-1-240.jpg", "Tipos de premios");?>
+
+
 			<p>La boca, grande y flexible, y sus dientes ferozmente desiguales, aunque sanos como yo jamás había visto
 				en cabeza humana. Tampoco podían discutir su legalidad, pues había muchos precedentes de este género en
 				la historia pasada. Mi cama estaba húmeda, los muebles, en la luz grisácea, más tristes, monstruosos y
 				negros. Su voz había recuperado el tono normal desde el momento en que ella había desaparecido–. Conté a
-				María la historia del viejo y se rió. Entretanto los negocios del comerciante prosperaban.</p><img
-				alt="bueno pues intentare cruzarlo andando"
-				src="/img/el-otro-vecino-y-su-madre-seguian-mirandose-id-1-113.jpg">
+				María la historia del viejo y se rió. Entretanto los negocios del comerciante prosperaban.</p>
+				
+				<?php _showImg("/img/el-otro-vecino-y-su-madre-seguian-mirandose-id-1-113.jpg", "bueno pues intentare cruzarlo andando");?>
+
+
 			<p>Tenía calor con mi traje oscuro El viejecito, que se había cubierto, se quitó nuevamente el sombrero. El
 				hallazgo resultó aún más sorprendente porque aquella casa, que había construido su antepasado en 1761 en
 				el solar de otra más antigua, seguía aún en pie en Olney Court y ya la conocía gracias a sus frecuentes
@@ -233,9 +297,11 @@ if(isset($_GET['amp']))
 				frágiles y estrictamente temporales, imperfectas, ordinarias e irredentas. El brazo no le dolía nada y
 				solamente en la ceja, donde lo habían suturado, chirriaba a veces una punzada caliente y rápida. En la
 				actividad Hermeneutica se aprovecha el Nivel Lingiiistico, de la Semiologia y de la Semantica, como un
-				primer nivel, previo a los niveles superiores.</p><img
-				alt="en cuanto a lo demas en general no iba tan lejos"
-				src="/img/comenzo-el-interrogatorio-id-1-258.jpg">
+				primer nivel, previo a los niveles superiores.</p>
+				
+				<?php _showImg("/img/comenzo-el-interrogatorio-id-1-258.jpg", "en cuanto a lo demas en general no iba tan lejos");?>
+
+
 			<p>La realidad de la filosofía latinoamericana está en marcha; y, como América Latina, marcha hacía sí
 				misma,. Algunas gotas de sudor le perlaban la frente pero no las enjugaba. Empecé entonces a crear un
 				marco que me permitiría entender estas experiencias. Vi de una ojeada que los tornillos del féretro
@@ -265,7 +331,7 @@ if(isset($_GET['amp']))
 				los que hacían ese trabajo manualmente y que habían quedado obsoletos por el avance tecnológico. Siempre
 				le digo que es mejor para la salud. Era una trampa en forma de rectángulo y estaba tallando el
 				travesaño. Muy cerca existe una tumba, en otro tiempo tan hermosa como la casa.</p>
-			<p>Por ejemplo, <b>Cantineo Que Te Veo</b> y los ecosistemas de un parque natural protegido están
+			<p>Por ejemplo, <b>Sock Data</b> y los ecosistemas de un parque natural protegido están
 				controlados técnicamente y legislados por leyes sociales. Michel Winock nos cuenta 1789 al detalle. René
 				Rémond se ha convertido en el más experto comentarista de las veladas electorales en la televisión. La
 				señora de Masson lloraba y María estaba muy pálida. Jordan lo observó cuidadosamente a medida que se
@@ -277,9 +343,10 @@ if(isset($_GET['amp']))
 				cansado y tenía sueño, de manera que no me di cuenta de lo que pasaba. Por encima de los intereses del
 				pueblo. No tenía derecho de mostrarme afectuoso, ni de tener buena voluntad. Recordaba cada mueble, y de
 				cada uno, cada objeto que en él se encontraba, y de cada objeto, todos los detalles, y de los detalles,
-				una incrustación, una grieta o un borde gastado, los colores y las imperfecciones.</p><img
-				alt="yo escuchaba y oia que se me juzgaba inteligente"
-				src="/img/anselmo-le-seguia-a-la-distancia-de-unos-metros-id-1-259.jpg">
+				una incrustación, una grieta o un borde gastado, los colores y las imperfecciones.</p>
+				
+				<?php _showImg("/img/anselmo-le-seguia-a-la-distancia-de-unos-metros-id-1-259.jpg", "yo escuchaba y oia que se me juzgaba inteligente");?>
+
 			<p>Como Carter no tenía ganas de encontrarse con ningún dhole, estaba muy atento a cualquier ruido que
 				sonara por la enorme masa de huesos que había a su alrededor. Ha llegado el tiempo de que aparezcan en
 				la lengua húngara tales obras de la historia de la medicina, en las cuales Centro y Sudamérica ocupen un
@@ -288,9 +355,10 @@ if(isset($_GET['amp']))
 				indígenas de la Amazonía. Todos tenemos un campo energético o aura que envuelve nuestro cuerpo físico y
 				penetra en él. Pero seguramente incluso quienes no creían realmente deben de haberse sentido
 				intranquilos y desalentados.</p>
-			<h2>Quería solamente tener mi opinión sobre el asunto</h2><img
-				alt="vio pasar a pablo por entre los arboles de Zaragoza"
-				src="/img/felipe-estaba-casado-desde-hacia-veinte-anos-id-1-240.jpg">
+			<h2>Quería solamente tener mi opinión sobre el asunto</h2>
+			
+			<?php _showImg("/img/felipe-estaba-casado-desde-hacia-veinte-anos-id-1-240.jpg", "vio pasar a pablo por entre los arboles de Zaragoza");?>
+			
 			<p>Aquí tienes las <a title="Bases del Concurso Sock Data se come tu bocata " href="/sock-data-se-come-tu-bocata-bases-del-concurso.pdf">bases del concurso</a> Se levantó de la cama tras soñar con sangre en la boca. El mes de agosto es pródigo en
 				grandes efemérides de nuestra Historia. Raimundo respondió que era una casualidad. De todos modos, los
 				tenía a cero. En el cafetín Chez Pierrot, contiguo a la cigarrería, el mozo barría aserrín en el salón
@@ -313,8 +381,11 @@ if(isset($_GET['amp']))
 				definir de alguna forma la peculiar naturaleza de la telergia, al depender ésta de la voluntad del
 				dotado y al ser sus efectos semejantes a los de la electricidad estática. La racionalidad, entendida
 				incluso como estructura formal sintetizadora de la pluralidad en que la razón puede ser racional, no es
-				la única figura de la razón.</p><img alt="en cuanto a lo demas en general no iba tan lejos"
-				src="/img/la-primera-era-la-mision-de-santa-maria-de-nieva-id-1-251.jpg">
+				la única figura de la razón.</p>
+				
+				<?php _showImg("/img/la-primera-era-la-mision-de-santa-maria-de-nieva-id-1-251.jpg", "en cuanto a lo demas en general no iba tan lejos");?>
+			
+
 			<p>Se vio la humareda y después se oyó el pitido del silbato. En aquella época apenas se relacionaba con su
 				familia y pasaba la mayor parte del tiempo enfrascado en la lectura de libros que había traído de Europa
 				y experimentando con extraños productos químicos que le llegaban en barcos procedentes de Inglaterra,
@@ -346,21 +417,43 @@ if(isset($_GET['amp']))
 				Fausses-Reposes. En el extremo de la playa llegamos al fin a un pequeño manantial que corría por la
 				arena hacia el mar detrás de una gran roca. Se trata de una moza fofa y con muy buena pechuga, detalle
 				en el que ya me había fijado. Me da ardor de estómago.</p>
-			<h2>Va por ti Alberto Sordi</h2><img src="/img/sockdatasecometubocata-va-por-ti-alberto-sordi.jpg" width="800"
-				alt="Alberto Sordi, Dios del SEO">
-			<marquee>Te rendimos homenaje en Sock Data se come tu bocata , va por ti Alberto Sordi. Eres un crack , vuelve !!!
-			</marquee>
+
+			<h2>Va por ti Alberto Sordi</h2>
+
+			<?php _showImg("/img/sockdatasecometubocata-va-por-ti-alberto-sordi.jpg", "Alberto Sordi, Dios del SEO");?>
+
+		
+			<?php if (!$amp):?>	
+			<marquee>
+			<?php else:?>
+			<p>		
+			<?php endif;?>	
+
+			Te rendimos homenaje en Sock Data se come tu bocata , va por ti Alberto Sordi. Eres un crack , vuelve !!!
+
+			<?php if (!$amp):?>	
+			<marquee>
+			<?php else:?>
+			</p>
+			<?php endif;?>	
+
+
 		</article>
 	</div>
 	<footer class="footer" id="myfooter">
 		<div class="container">
 			<a title="Web Oficial de Sock Data se come tu bocata" id="fin" href="/">sockdatasecometubocata.info</a>
 			<p>
-				<a id="direccion" ping="https://simcadelicos.com/yasabes.html" alt="Dirección de Sock Data se come tu bocata" href="https://goo.gl/maps/AbkjEoqcP4f5dKYz5">Plaza de la Seo, 4 Sotano , 50001 Zaragoza</a>
+			<?php if (!$amp):?>	
+				<a id="direccion" ping="https://simcadelicos.com/yasabes.html" title="Dirección de Sock Data se come tu bocata" href="https://goo.gl/maps/AbkjEoqcP4f5dKYz5">Plaza de la Seo, 4 Sotano , 50001 Zaragoza</a>
+			<?php else: ?>
+				<a id="direccion" title="Dirección de Sock Data se come tu bocata" href="https://goo.gl/maps/AbkjEoqcP4f5dKYz5">Plaza de la Seo, 4 Sotano , 50001 Zaragoza</a>
+			<?php endif;?>
 			</p>
 		</div>
 	</footer>
-	
+
+	<?php if (!$amp):?>	
 	<script>
 	
 	document.addEventListener("DOMContentLoaded", function() 
@@ -414,6 +507,7 @@ if(isset($_GET['amp']))
 
 
 	</script>
+	<?php endif;?>
 </body>
 
 </html>

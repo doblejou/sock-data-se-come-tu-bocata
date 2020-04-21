@@ -157,3 +157,11 @@ article
     height: 900px;
 
 }
+
+.fixed-container {
+  text-align: center;
+}
+
+amp-img.contain img {
+  object-fit: contain;
+}
