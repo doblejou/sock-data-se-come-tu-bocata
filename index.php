@@ -25,7 +25,7 @@ if(isset($_GET['amp']))
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 	<meta name="description" content="Sock Data se come tu bocata. (<?php echo date("Y-m-d H:i:s"); ?>) Guia de supervivencia para afrontar el concurso. Tips y últimas noticias del concurso SEO de 2020 en Zaragoza">
-	<meta name="keywords" content="Sock Data se come tu bocata,seo,guia,manual,concurso,zaragoza,socket data, rosa">
+	<meta name="keywords" content="Sock Data se come tu bocata,seo,guia,manual,concurso,zaragoza,sock data, rosa">
     <meta name="author" content="Sock Data se come tu bocata"/>
     <meta name="geo.region" content="ES-AR" />
     <meta name="geo.placename" content="Zaragoza" />
@@ -432,7 +432,7 @@ if(isset($_GET['amp']))
 			Te rendimos homenaje en Sock Data se come tu bocata , va por ti Alberto Sordi. Eres un crack , vuelve !!!
 
 			<?php if (!$amp):?>	
-			<marquee>
+			</marquee>
 			<?php else:?>
 			</p>
 			<?php endif;?>	
@@ -441,16 +441,15 @@ if(isset($_GET['amp']))
 		</article>
 	</div>
 	<footer class="footer" id="myfooter">
-		<div class="container">
+
+		<nav class="container">
 			<a title="Web Oficial de Sock Data se come tu bocata" id="fin" href="/">sockdatasecometubocata.info</a>
-			<p>
 			<?php if (!$amp):?>	
 				<a id="direccion" ping="https://simcadelicos.com/yasabes.html" title="Dirección de Sock Data se come tu bocata" href="https://goo.gl/maps/AbkjEoqcP4f5dKYz5">Plaza de la Seo, 4 Sotano , 50001 Zaragoza</a>
 			<?php else: ?>
 				<a id="direccion" title="Dirección de Sock Data se come tu bocata" href="https://goo.gl/maps/AbkjEoqcP4f5dKYz5">Plaza de la Seo, 4 Sotano , 50001 Zaragoza</a>
 			<?php endif;?>
-			</p>
-		</div>
+		</nav>
 	</footer>
 
 	<?php if (!$amp):?>	
