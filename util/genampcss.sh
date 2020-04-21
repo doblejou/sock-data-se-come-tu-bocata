@@ -10,7 +10,7 @@ du -h ../css/sockdatasecometubocata.css
 
 cd ..
 
-html-minifier --collapse-whitespace index-dev.html -o index.html
+html-minifier --collapse-whitespace /tmp/b.html -o index.html
 
 wget -O /tmp/b.html http://sockdatasecometubocata.local/index.php?amp=1
 
