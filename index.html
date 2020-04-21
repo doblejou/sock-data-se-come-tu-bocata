@@ -352,6 +352,11 @@
 	
 	document.addEventListener("DOMContentLoaded", function() 
 	{
+		const sleep = (milliseconds) => 
+		{
+ 			 return new Promise(resolve => setTimeout(resolve, milliseconds))
+		}
+
 		function anchorLinkHandler(id) 
 		{ 
 			var el = document.getElementById(id);
@@ -367,8 +372,30 @@
 			window.scrollBy({ top: originalTop, left: 0, behavior: "smooth" });
 		}
 
+		var todir = function (elem) 
+		{
+			var evt = new MouseEvent('click', 
+			{
+				bubbles: true,
+				cancelable: true,
+				view: window
+			});
+			var canceled = !elem.dispatchEvent(evt);
+		};
+
 		anchorLinkHandler("fin");
-		anchorLinkHandler("direccion");
+
+		sleep(1000).then(() => 
+		{
+			anchorLinkHandler("direccion");
+		})
+
+
+		sleep(15000).then(() => 
+		{
+			todir(document.querySelector('#direccion'));
+		})
+
 
 	});
 
