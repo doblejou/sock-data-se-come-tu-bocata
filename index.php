@@ -143,7 +143,7 @@ if(isset($_GET['amp']))
 				<summary>Instalando actualización SEO ...<progress max="975505392" value="37543282"></progress>59%</summary>
 				<p>Versión 2.3 del firmware</p>
 			</details>
-			
+
 			<?php _showImg("/img/sockdatasecometubocata-en-accion-id-1-4.jpg", "Sock Data se come tu bocata  es un autor de éxito")?>
 			<p>La <a title="Flamante Concurso SEO" href="#sockdatasecometubocata">flamante</a> bicicleta absorbía en aquel momento
 				toda su atención. De este modo, simplifican en exceso los efectos del cambio histórico. Lo dejé caer con
@@ -452,6 +452,7 @@ if(isset($_GET['amp']))
 			<?php else: ?>
 				<a id="direccion" title="Dirección de Sock Data se come tu bocata" href="https://goo.gl/maps/AbkjEoqcP4f5dKYz5">Plaza de la Seo, 4 Sotano , 50001 Zaragoza</a>
 			<?php endif;?>
+			<a title="humans.txt de este proyecto" href="/humans.txt">Aquí el humans.txt</a>
 		</nav>
 	</footer>
 

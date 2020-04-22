@@ -1,0 +1,15 @@
+/* PROJECT */
+
+	Site Name:   SOCK DATA SE COME TU BOCATA
+	Site URL:    https://sockdatasecometubocata.info
+	Created:     2020/04/21
+	Standards:   HTML5, CSS3
+
+/* AUTHOR */
+
+	Name:        Jose González Mateo
+	Nickname:    @josegmbcn
+
+/* THANKS */
+
+	A Davida Ayala y su equipo por lanzar el concurso
