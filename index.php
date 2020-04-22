@@ -71,7 +71,7 @@ if(isset($_GET['amp']))
 				"worksFor": 
 				{
 				"@type": "Organization",
-				"name": "Sock Data SEO del Bueno S.L."
+				"name": "sockdatasecometubocata info"
 				},
 				"sameAs" : 
 				[ 
@@ -131,7 +131,7 @@ if(isset($_GET['amp']))
 	<div class="container is-fullwidth" id="mycontent">
 		<article>
 			<h2>¿Qué es Sock Data se come tu bocata 🐵?</h2>
-			<p>Bienvendos a <b>sockdatasecometubocata.info</b>. Hoy tenemos que celebrarlo. En cualquier caso, confiaba en persuadir a su mono
+			<p>Bienvendos a <b>sockdatasecometubocata info</b>. Hoy tenemos que celebrarlo. En cualquier caso, confiaba en persuadir a su mono
 				para que le ayudara a salir de casa. Delante de la escuela estuvimos a punto de dárnosla con un Pedro
 				que atravesaba a su antojo sin mirar a ninguna parte. Caco Senante La propiedad no tiene como finalidad
 				la de su explotación económica, sino que ese es únicamente un medio para alcanzar su fin social.</p>
