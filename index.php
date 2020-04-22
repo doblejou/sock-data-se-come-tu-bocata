@@ -135,7 +135,7 @@ if(isset($_GET['amp']))
 				para que le ayudara a salir de casa. Delante de la escuela estuvimos a punto de dárnosla con un Pedro
 				que atravesaba a su antojo sin mirar a ninguna parte. Caco Senante La propiedad no tiene como finalidad
 				la de su explotación económica, sino que ese es únicamente un medio para alcanzar su fin social.</p>
-			<p><strong>David Ayala tiene voz de locutor de Radio 3<strong>. Se les veía a menudo conferenciando por los alrededores del parque y las visitas entre ellos no eran
+			<p><strong>David Ayala tiene voz de locutor de Radio3</strong>. Se les veía a menudo conferenciando por los alrededores del parque y las visitas entre ellos no eran
 				menos frecuentes. Tenía los costados pintados, amarillentas las velas latinas, y un <b>capitán de pelo
 					gris</b> y ropas de seda. Las plumas superiores volaron, y la sirvienta dio un grito de horror con
 				toda la boca abierta, llevándose las manos crispadas a los bandós.</p>
