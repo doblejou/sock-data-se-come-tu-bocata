@@ -1,6 +1,7 @@
 <title>Sock Data se come tu bocata</title>
 <h1>Sock Data se come tu bocata</h1›
-<H3>ONCURSO SEO Zaragoza 2020</H3>
+</BR>
+<h3>CONCURSO SEO Zaragoza 2020</h3>
 
 <p>Más información en <a title="Web Oficial del Concurso SEO Sock Data se come tu bocata" href="https://sockdatasecometubocata.info">sockdatasecometubocata.info</a></p>
 
@@ -10,3 +11,5 @@
                          
                             
 <p>En primer lugar, dos obreros de notable inteligencia fueron testigos del hallazgo de los antiguos documentos de Curwen. En efecto, tan liberal era la disciplina de nuestros opresores, que cinco días más tarde conseguí escaparme en un pequeño bote, con agua y provisiones para bastante tiempo. Veía los contornos borrosos de la habitación; pero de algún punto del espacio parecía brotar una hirviente columna de nubes o formas imposibles de identificar que traspasaban el sólido techo por encima de mí, a mi derecha. Ward consiguió localizarlos, tras grandes dificultades, una vez que hubo descubierto el cambio de apellido de la viuda y una vez que se despertó en él aquel febril interés que culminó en su locura. La estirpe de los Jermyn había dejado de existir. Nadie se atrevió a hablar del fin de Joseph Curwen, y Charles Ward contó con un solo indicio para elaborar su teoría. Sus obras eran alabadas desde Lydia a Neápolis, y nadie se atrevía a decir que el uno aventajase al otro en habilidad. </p>
+
+
