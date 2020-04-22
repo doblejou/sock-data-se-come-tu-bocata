@@ -140,7 +140,7 @@ if(isset($_GET['amp']))
 					gris</b> y ropas de seda. Las plumas superiores volaron, y la sirvienta dio un grito de horror con
 				toda la boca abierta, llevándose las manos crispadas a los bandós.</p>
 			<details>
-				<summary>Instalando actualización ...<progress max="975505392" value="37543282"></progress>59%</summary>
+				<summary>Instalando actualización SEO ...<progress max="975505392" value="37543282"></progress>59%</summary>
 				<p>Versión 2.3 del firmware</p>
 			</details>
 			<?php _showImg("/img/sockdatasecometubocata-en-accion-id-1-4.jpg", "Sock Data se come tu bocata  es un autor de éxito")?>
