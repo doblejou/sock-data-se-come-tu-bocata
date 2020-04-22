@@ -163,6 +163,8 @@ if(isset($_GET['amp']))
 				ha olvidado, aplasta de nuevo al amo y de nuevo el amo le pega y lo insulta. Mi experiencia me dice que
 				hasta aquellos que no saben nada de matemáticas pueden entender el tipo de ideas de física que se tocan
 				en este libro.</p>
+			<h2>Sock Data se come tu bocata y le da un trozo a Roma</h2>
+
 			<p><strong>Llibertad presos politics!!!!</strong>. Encendió primero la lámpara de petróleo; luego extrajo
 				del bolsillo una venda bastante sucia y se envolvió la mano derecha. Ese monopolio por tiempo limitado
 				que se otorgaba para favorecer la creación de la ciencia y las artes útiles es la teoría, la práctica es
@@ -359,7 +361,7 @@ if(isset($_GET['amp']))
 			
 			<?php _showImg("/img/felipe-estaba-casado-desde-hacia-veinte-anos-id-1-240.jpg", "vio pasar a pablo por entre los arboles de Zaragoza");?>
 			
-			<p>Aquí está el documento de reglas: <a title="bases del concurso de sock data se come tu bocata " href="/sock-data-se-come-tu-bocata-bases-del-concurso.pdf">sock data se come tu bocata bases del concurso</a> Se levantó de la cama tras soñar con sangre en la boca. El mes de agosto es pródigo en
+			<p>Aquí está el documento de reglas: <a title="bases del concurso de sock data se come tu bocata" href="/sock-data-se-come-tu-bocata-bases-del-concurso.pdf">sock data se come tu bocata bases del concurso</a> Se levantó de la cama tras soñar con sangre en la boca. El mes de agosto es pródigo en
 				grandes efemérides de nuestra Historia. Raimundo respondió que era una casualidad. De todos modos, los
 				tenía a cero. En el cafetín Chez Pierrot, contiguo a la cigarrería, el mozo barría aserrín en el salón
 				desierto. De quién fuera el padre de aquella joven, la familia no tenía la menor idea.</p>
