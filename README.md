@@ -1,4 +1,5 @@
-<h1>A1. Repositorio Oficial de "Sock Data se come tu bocata" CONCURSO SEO Zaragoza 2020</h1>
+<h1>Sock Data se come tu bocata</h1›
+<H3>ONCURSO SEO Zaragoza 2020</H3>
 
 <p>Más información en <a title="Web Oficial del Concurso SEO Sock Data se come tu bocata" href="https://sockdatasecometubocata.info">sockdatasecometubocata.info</a></p>
 
