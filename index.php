@@ -359,7 +359,7 @@ if(isset($_GET['amp']))
 			
 			<?php _showImg("/img/felipe-estaba-casado-desde-hacia-veinte-anos-id-1-240.jpg", "vio pasar a pablo por entre los arboles de Zaragoza");?>
 			
-			<p>Aquí tienes las <a title="Bases del Concurso Sock Data se come tu bocata " href="/sock-data-se-come-tu-bocata-bases-del-concurso.pdf">bases del concurso</a> Se levantó de la cama tras soñar con sangre en la boca. El mes de agosto es pródigo en
+			<p>Aquí está el documento de reglas: <a title="bases del concurso de sock data se come tu bocata " href="/sock-data-se-come-tu-bocata-bases-del-concurso.pdf">sock data se come tu bocata bases del concurso</a> Se levantó de la cama tras soñar con sangre en la boca. El mes de agosto es pródigo en
 				grandes efemérides de nuestra Historia. Raimundo respondió que era una casualidad. De todos modos, los
 				tenía a cero. En el cafetín Chez Pierrot, contiguo a la cigarrería, el mozo barría aserrín en el salón
 				desierto. De quién fuera el padre de aquella joven, la familia no tenía la menor idea.</p>
