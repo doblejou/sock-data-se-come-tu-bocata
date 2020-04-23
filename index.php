@@ -35,8 +35,8 @@ if(isset($_GET['amp']))
 	<link rel="amphtml" href="https://sockdatasecometubocata.info/index-amp.html" />
 	<link rel="shortcut icon" href="/favicon.ico">
 
-	<link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg" />
-	<link rel="alternate icon" type="image/png" href="/favicon.png" />
+	<link rel="icon" type="image/svg+xml" sizes="any" href="https://sockdatasecometubocata.info/favicon.svg" />
+	<link rel="alternate icon" type="image/png" href="https://sockdatasecometubocata.info/favicon.png" />
 
 	<?php if ($amp):?>
 		<meta charset="utf-8"/>
