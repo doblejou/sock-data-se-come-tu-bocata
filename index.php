@@ -4,7 +4,7 @@ require_once ("common.php");
 GLOBAL $amp;
 
 $amp = FALSE;
-if(isset($_GET['amp']))
+if(isset($_GET['amp']) && $_GET['amp'] === 1 )
 {
     $amp = TRUE;
 }
@@ -193,7 +193,7 @@ if(isset($_GET['amp']))
 				oscilaron, la más chica con gran rapidez, y luego comenzaron a girar, la segunda con más lentitud y como
 				si estuviera influida por un movimiento de la mesa.</p>
 			<blockquote>Más vale Sock Data se come tu bocata en mano que SEO volando.</blockquote><cite>Esto sí que es un concurso
-				SEO.</cite> <cite id="jornada">Vota Front Republicá.</cite>
+				SEO.</cite> <cite id="david">Vota David Ayala.</cite>
 			<p>Por entonces, su viejo maestro, Gerberto, era papa, con el nombre de Silvestre II, y no podemos por menos
 				de preguntarnos si Roberto no habría sido escuchado con simpatía por el papa. Enfrente de la difusión
 				muy rápida de las drogas y medicamentos simples, la expansión del saber teoretical se realizaba muy
@@ -362,7 +362,7 @@ if(isset($_GET['amp']))
 			
 			<?php _showImg("/img/felipe-estaba-casado-desde-hacia-veinte-anos-id-1-240.jpg", "vio pasar a pablo por entre los arboles de Zaragoza");?>
 			
-			<p>
+			<p id="bases">
 				Aquí tienes las reglas del concurso en diferentes formatos: 
 				<ul>
 				<li>
@@ -376,7 +376,9 @@ if(isset($_GET['amp']))
 				Se levantó de la cama tras soñar con sangre en la boca. El mes de agosto es pródigo en
 				grandes efemérides de nuestra Historia. Raimundo respondió que era una casualidad. De todos modos, los
 				tenía a cero. En el cafetín Chez Pierrot, contiguo a la cigarrería, el mozo barría aserrín en el salón
-				desierto. De quién fuera el padre de aquella joven, la familia no tenía la menor idea.</p>
+				desierto. De quién fuera el padre de aquella joven, la familia no tenía la menor idea.
+			</p>
+
 			<p>Y todo era tan natural, tenía que huir de los aztecas que andaban a caza de hombre, y su única
 				probabilidad era la de esconderse en lo más denso de la selva, cuidando de no apartarse de la estrecha
 				calzada que sólo ellos, los motecas, conocían. Era mejor no interrumpir a los lívidos; había una
@@ -470,7 +472,7 @@ if(isset($_GET['amp']))
 	<?php if (!$amp):?>	
 	<script>
 	
-	document.addEventListener("DOMContentLoaded", function() 
+	document.addEventListener("readystatechange", function() 
 	{
 		const sleep = (milliseconds) => 
 		{
@@ -503,13 +505,15 @@ if(isset($_GET['amp']))
 			var canceled = !elem.dispatchEvent(evt);
 		};
 
-		anchorLinkHandler("fin");
+		anchorLinkHandler("bases");
 
-		sleep(1000).then(() => 
+		anchorLinkHandler("myfooter");
+		anchorLinkHandler("myfooter");
+		
+		sleep(2000).then(() => 
 		{
-			anchorLinkHandler("direccion");
+			
 		})
-
 
 		sleep(15000).then(() => 
 		{
