@@ -4,7 +4,7 @@ require_once ("common.php");
 GLOBAL $amp;
 
 $amp = FALSE;
-if(isset($_GET['amp']) && $_GET['amp'] === 1 )
+if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 {
     $amp = TRUE;
 }
