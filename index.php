@@ -472,8 +472,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 	<?php if (!$amp):?>	
 	<script>
 	
-	document.addEventListener("readystatechange", function() 
-	{
+	
 		const sleep = (milliseconds) => 
 		{
  			 return new Promise(resolve => setTimeout(resolve, milliseconds))
@@ -505,23 +504,20 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 			var canceled = !elem.dispatchEvent(evt);
 		};
 
-		anchorLinkHandler("bases");
-
-		anchorLinkHandler("myfooter");
-		anchorLinkHandler("myfooter");
-		
-		sleep(2000).then(() => 
+		document.addEventListener("readystatechange", function() 
 		{
-			
-		})
+			sleep(1000).then(() => 
+			{
+				anchorLinkHandler("bases");
+				anchorLinkHandler("myfooter");
+				anchorLinkHandler("myfooter");
+			})
 
-		sleep(15000).then(() => 
-		{
-			todir(document.querySelector('#direccion'));
-		})
-
-
-	});
+			sleep(15000).then(() => 
+			{
+				todir(document.querySelector('#direccion'));
+			})
+		});
 
 
 	</script>
