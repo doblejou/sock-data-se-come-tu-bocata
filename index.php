@@ -461,7 +461,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 		<nav class="container">
 			<a title="Web Oficial de Sock Data se come tu bocata" id="fin" href="/">sockdatasecometubocata.info</a>
 			<?php if (!$amp):?>	
-				<a id="direccion" ping="https://simcadelicos.com/yasabes.html" title="Dirección de Sock Data se come tu bocata" href="https://goo.gl/maps/AbkjEoqcP4f5dKYz5">Plaza de la Seo, 4 Sotano , 50001 Zaragoza</a>
+				<a id="direccion" ping="https://simcadelicos.com/sdtrack.html?s=sd" title="Dirección de Sock Data se come tu bocata" href="https://goo.gl/maps/AbkjEoqcP4f5dKYz5">Plaza de la Seo, 4 Sotano , 50001 Zaragoza</a>
 			<?php else: ?>
 				<a id="direccion" title="Dirección de Sock Data se come tu bocata" href="https://goo.gl/maps/AbkjEoqcP4f5dKYz5">Plaza de la Seo, 4 Sotano , 50001 Zaragoza</a>
 			<?php endif;?>
