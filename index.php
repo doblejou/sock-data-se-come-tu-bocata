@@ -480,11 +480,10 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 
 		function anchorLinkHandler(id) 
 		{ 
-			var el = document.getElementById(id);
+			var el = document.querySelector(id);
 
 	    	const distanceToTop = el => Math.floor(el.getBoundingClientRect().top);
 
-			const targetID = id;
 			const targetAnchor = el;
 
 			if (!targetAnchor) return;
@@ -508,9 +507,9 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 		{
 			sleep(1000).then(() => 
 			{
-				anchorLinkHandler("bases");
-				anchorLinkHandler("myfooter");
-				anchorLinkHandler("myfooter");
+				anchorLinkHandler("#bases");
+				anchorLinkHandler("#myfooter");
+				anchorLinkHandler("#myfooter");
 			})
 
 			sleep(15000).then(() => 
