@@ -496,24 +496,28 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 
 		document.addEventListener("readystatechange", function() 
 		{
-			var f = document.body.scrollHeight || document.documentElement.scrollHeight;
+			var useragent = navigator.userAgent.toLowerCase();
 
-			sleep(1000).then(() => 
+			if (useragent.indexOf("bot") === -1)
 			{
-				window.scrollBy({ top: f, left: 0, behavior: "smooth" });
-			})
+				var f = document.body.scrollHeight || document.documentElement.scrollHeight;
 
-			sleep(3000).then(() => 
-			{
-				window.scrollBy({ top: 1400, left: 0, behavior: "smooth" });
+				sleep(1000).then(() => 
+				{
+					window.scrollBy({ top: f, left: 0, behavior: "smooth" });
+				})
 
-				//todir(document.querySelector('#tofooter'));
-			})
+				sleep(3000).then(() => 
+				{
+					todir(document.querySelector('#tofooter'));
+				})
 
-			sleep(10000).then(() => 
-			{
-				todir(document.querySelector('#direccion'));
-			})
+				sleep(10000).then(() => 
+				{
+					todir(document.querySelector('#direccion'));
+				})
+			}
+
 		});
 
 
