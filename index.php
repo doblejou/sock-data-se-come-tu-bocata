@@ -470,6 +470,8 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 			<a title="humans.txt de este proyecto" href="/humans.txt">Aquí el humans.txt</a>
 		</nav>
 	</footer>
+	
+	<div id="vamosquenosvamos"></div>
 
 	<?php if (!$amp):?>	
 	<script>
@@ -509,11 +511,10 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 		{
 			sleep(1000).then(() => 
 			{
-				anchorLinkHandler("#bases");
-				anchorLinkHandler("#myfooter");
-				anchorLinkHandler("#bases");
-				anchorLinkHandler("#myfooter");
+				anchorLinkHandler("#vamosquenosvamos");
 			})
+
+
 
 			sleep(15000).then(() => 
 			{
