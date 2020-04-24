@@ -514,7 +514,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				anchorLinkHandler("#vamosquenosvamos");
 			})
 
-			sleep(3).then(() => 
+			sleep(3000).then(() => 
 			{
 				anchorLinkHandler("#vamosquenosvamos");
 			})
