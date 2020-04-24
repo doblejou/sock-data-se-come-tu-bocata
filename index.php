@@ -153,7 +153,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 			<p>Hoy ejercen una influencia sin precedentes en el ámbito intelectual Plaza del SEO (Zaragoza). María se me
 				acercó entonces y se estrechó contra mí en el agua. Se movía con torpeza, como un potro recien nacido,
 				pero con toda la gracia de un animal joven.
-				En el fondo mis "álter egos" de <b>mum.is<b>, <b>funatics.es</b> y decenas más, tienen bastante razón cuando piensan que este concurso de SEO se puede ganar.
+				En el fondo mis "álter egos" de <b>mum.is</b>, <b>funatics.es</b> y decenas más, tienen bastante razón cuando piensan que este concurso de SEO se puede ganar.
 			</p>
 			<ol>
 				<li>En este hashtag de twitter <a rel="nofollow" title="Sock Data se come tu bocata .one en directo"
@@ -511,10 +511,10 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 		{
 			sleep(1000).then(() => 
 			{
-				anchorLinkHandler("#vamosquenosvamos");
+				anchorLinkHandler("#david");
 			})
 
-			sleep(3000).then(() => 
+			sleep(2000).then(() => 
 			{
 				anchorLinkHandler("#vamosquenosvamos");
 			})
