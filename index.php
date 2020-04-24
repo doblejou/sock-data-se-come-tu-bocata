@@ -168,7 +168,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				en este libro.</p>
 			<h2>Sock Data se come tu bocata y le da un trozo a Roma</h2>
 
-			<p><strong>Llibertad presos politics!!!!</strong>. Encendió primero la lámpara de petróleo; luego extrajo
+			<p><strong>Llibertad SEOS politics!!!!</strong>. Encendió primero la lámpara de petróleo; luego extrajo
 				del bolsillo una venda bastante sucia y se envolvió la mano derecha. Ese monopolio por tiempo limitado
 				que se otorgaba para favorecer la creación de la ciencia y las artes útiles es la teoría, la práctica es
 				que esa limitación se cumple solo formalmente. Ezra Weeden presenció el hallazgo y, recordando los
@@ -227,7 +227,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				prácticamente nada, excepto lo que había aprendido, hasta cierto punto, de la Biblia. Oiga, si tengo que
 				pedir alguna vez un favor a alguien, se lo pediré cuando llegue el momento. La distancia entre nosotros
 				disminuyó regularmente.</p>
-			<h3>Troleando en las SERPS del Concurso</h3>
+			<h3 id="trol">Troleando en las SERPS del Concurso</h3>
 			<p>Le dije "comprate un tebeo y deja el seo". Y ella se levantó tras soñar con agua sucia. Era tarde, y
 				corrí para alcanzar un tranvía en Zaragoza. Mi padre y mi madre eran Judíos. La historia de
 				<b>Sock Data se come tu bocata </b> ha sido tratada por ejemplo en obras de Joaquín García Icazbalceta en el siglo
@@ -511,7 +511,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 		{
 			sleep(1000).then(() => 
 			{
-				anchorLinkHandler("#david");
+				anchorLinkHandler("#trol");
 			})
 
 			sleep(2000).then(() => 
