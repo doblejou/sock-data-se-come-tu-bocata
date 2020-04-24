@@ -165,7 +165,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 			<p>Así, cuanto más reflexionaba, más cosas desconocidas u olvidadas extraía de la memoria. Cuando el perro
 				ha olvidado, aplasta de nuevo al amo y de nuevo el amo le pega y lo insulta. Mi experiencia me dice que
 				hasta aquellos que no saben nada de matemáticas pueden entender el tipo de ideas de física que se tocan
-				en este libro.</p>
+				en este libro. Y gritaron: <b>"sock data se come tu bocata sock data secometubocata info"</b> </p>
 			<h2>Sock Data se come tu bocata y le da un trozo a Roma</h2>
 
 			<p><strong>Llibertad SEOS politics!!!!</strong>. Encendió primero la lámpara de petróleo; luego extrajo
