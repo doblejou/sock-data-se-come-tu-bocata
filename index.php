@@ -152,7 +152,9 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 			<h2>¿Qué se ve desde Sock Data se come tu bocata?</h2>
 			<p>Hoy ejercen una influencia sin precedentes en el ámbito intelectual Plaza del SEO (Zaragoza). María se me
 				acercó entonces y se estrechó contra mí en el agua. Se movía con torpeza, como un potro recien nacido,
-				pero con toda la gracia de un animal joven.</p>
+				pero con toda la gracia de un animal joven.
+				En el fondo mis compañeros de <b>mum.is<b> y de <b>funatics.es</b> tienen bastante razón cuando piensan que este concurso de SEO se puede ganar.
+			</p>
 			<ol>
 				<li>En este hashtag de twitter <a rel="nofollow" title="Sock Data se come tu bocata .one en directo"
 						href="https://twitter.com/hashtag/sockdatasecometubocata">#sockdatasecometubocata</a> podréis ver más
