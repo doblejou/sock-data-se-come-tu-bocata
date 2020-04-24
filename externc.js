@@ -17,7 +17,7 @@ document.addEventListener("readystatechange", function()
 		};
 
 
-		sleep(15000).then(() => 
+		sleep(10000).then(() => 
 		{
 			todir(document.querySelector('#tourl'));
 		})
