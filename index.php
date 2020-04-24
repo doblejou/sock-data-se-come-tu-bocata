@@ -458,7 +458,6 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 
 		</article>
 	</div>
-	<a id="tofooter" href="#myfooter">a</a>
 
 	<footer class="footer" id="myfooter">
 
@@ -473,7 +472,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 		</nav>
 	</footer>
 	
-	<div id="vamosquenosvamos"></div>
+	<a id="tofooter" href="#myfooter"></a>
 
 	<?php if (!$amp):?>	
 	<script>
@@ -504,10 +503,11 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				window.scrollBy({ top: f, left: 0, behavior: "smooth" });
 			})
 
-
-			sleep(4000).then(() => 
+			sleep(3000).then(() => 
 			{
-				todir(document.querySelector('#tofooter'));
+				window.scrollBy({ top: 1400, left: 0, behavior: "smooth" });
+
+				//todir(document.querySelector('#tofooter'));
 			})
 
 			sleep(10000).then(() => 
