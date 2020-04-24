@@ -358,7 +358,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				indígenas de la Amazonía. Todos tenemos un campo energético o aura que envuelve nuestro cuerpo físico y
 				penetra en él. Pero seguramente incluso quienes no creían realmente deben de haberse sentido
 				intranquilos y desalentados.</p>
-			<h2>Quería solamente tener mi opinión sobre el asunto</h2>
+			<h2>Sock Sata se come tu bocata bases del concurso en PDF</h2>
 			
 			<?php _showImg("/img/felipe-estaba-casado-desde-hacia-veinte-anos-id-1-240.jpg", "vio pasar a pablo por entre los arboles de Zaragoza");?>
 			
