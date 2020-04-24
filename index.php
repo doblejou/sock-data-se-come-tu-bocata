@@ -511,6 +511,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 			{
 				anchorLinkHandler("#bases");
 				anchorLinkHandler("#myfooter");
+				anchorLinkHandler("#bases");
 				anchorLinkHandler("#myfooter");
 			})
 
