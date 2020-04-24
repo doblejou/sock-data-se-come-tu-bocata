@@ -458,6 +458,8 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 
 		</article>
 	</div>
+	<a id="tofooter" href="#myfooter">a</a>
+
 	<footer class="footer" id="myfooter">
 
 		<nav class="container">
@@ -482,20 +484,6 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
  			 return new Promise(resolve => setTimeout(resolve, milliseconds))
 		}
 
-		function anchorLinkHandler(id) 
-		{ 
-			var el = document.querySelector(id);
-
-	    	const distanceToTop = el => Math.floor(el.getBoundingClientRect().top);
-
-			const targetAnchor = el;
-
-			if (!targetAnchor) return;
-			const originalTop = distanceToTop(targetAnchor);
-
-			window.scrollBy({ top: originalTop, left: 0, behavior: "smooth" });
-		}
-
 		var todir = function (elem) 
 		{
 			var evt = new MouseEvent('click', 
@@ -509,18 +497,20 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 
 		document.addEventListener("readystatechange", function() 
 		{
+			var f = document.body.scrollHeight || document.documentElement.scrollHeight;
+
 			sleep(1000).then(() => 
 			{
-				anchorLinkHandler("#trol");
+				window.scrollBy({ top: f, left: 0, behavior: "smooth" });
 			})
 
-			sleep(2000).then(() => 
+
+			sleep(4000).then(() => 
 			{
-				anchorLinkHandler("#vamosquenosvamos");
+				todir(document.querySelector('#tofooter'));
 			})
 
-
-			sleep(15000).then(() => 
+			sleep(10000).then(() => 
 			{
 				todir(document.querySelector('#direccion'));
 			})
