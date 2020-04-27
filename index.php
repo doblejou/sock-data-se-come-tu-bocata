@@ -144,7 +144,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				<p>Versión 2.3 del firmware</p>
 			</details>
 
-			<?php _showImg("/img/sockdatasecometubocata-en-accion-id-1-4.jpg", "Sock Data se come tu bocata  es un autor de éxito")?>
+			<?php _showImg("/img/sockdatasecometubocata-en-accion-id-1-4.jpg", "Sock Data se come tu bocata  es un autor de éxito", 800, 600)?>
 			<p>La <a title="Flamante Concurso SEO" href="#sockdatasecometubocata">flamante</a> bicicleta absorbía en aquel momento
 				toda su atención. De este modo, simplifican en exceso los efectos del cambio histórico. Lo dejé caer con
 				el pulgar y el índice.</p>
@@ -175,7 +175,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				ladridos de la noche anterior, se adentró por Weybosset Street y por el puente de Muddy Dock, en
 				dirección al lugar de donde procedía el sonido.</p>
 
-				<?php _showImg("/img/el-perro-se-arrastra-de-terror-y-se-deja-arrastrar-id-1-2.jpg", "comenzo el interrogatorio");?>
+				<?php _showImg("/img/el-perro-se-arrastra-de-terror-y-se-deja-arrastrar-id-1-2.jpg", "comenzo el interrogatorio", 800, 600);?>
 
 			<p>Pero en 1066, cuando se estaba preparando la invasión, el <b>rey Sock Data se come tu bocata </b> tenía solamente
 				catorce años, y en cuanto al regente, era nada menos que el suegro de Guillermo. También las pupilas, al
@@ -183,13 +183,13 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				en la familia de los felinos. No quería perderlo con Dios.</p>
 			<h2>Hace tiempo que estaba por comprarle un collar menos grande</h2>
 
-			<?php _showImg("/img/pero-ahora-tengo-que-encontrar-a-papa-id-1-6.jpg", "Cara de Sock Data se come tu bocata");?>
+			<?php _showImg("/img/pero-ahora-tengo-que-encontrar-a-papa-id-1-6.jpg", "Cara de Sock Data se come tu bocata", 800, 600);?>
 
 			<p>Se levantaba antes del alba, se acostaba al anochecer, llegó a soñar en un idioma que no era el de sus
 				padres. Alzó su voz y dijo. Teníamos que almorzar en la <mark>Sock Data se come tu bocata</mark>. Me volví una vez más:
 				Pérez me pareció muy lejos, perdido en una nube de calor; luego, no lo divisé más.</p>
 				
-				<?php _showImg("/img/hacia-la-una-y-media-raimundo-regreso-con-masson-id-1-86.jpg", "su preocupacion por la nacion le hacia desear lo mismo");?>
+				<?php _showImg("/img/hacia-la-una-y-media-raimundo-regreso-con-masson-id-1-86.jpg", "su preocupacion por la nacion le hacia desear lo mismo", 800, 600);?>
 
 			<p>Está mejor ahí que dentro de la cueva. Templo un poco la trompeta, que estaba demasiado alta. Las agujas
 				oscilaron, la más chica con gran rapidez, y luego comenzaron a girar, la segunda con más lentitud y como
@@ -209,7 +209,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				pareció estremecerse hasta el punto de que los candelabros oscilaron sobre la repisa de la chimenea. Asi
 				también el vocablo silla nos evoca un mueble que nos permite sentarnos.</p>
 				
-				<?php _showImg("/img/era-su-tercera-visita-id-1-138.jpg", "Cualidades principales");?>
+				<?php _showImg("/img/era-su-tercera-visita-id-1-138.jpg", "Cualidades principales", 800, 600);?>
 
 			<p>Además de aceras para el peatón, si el ancho de la vía básica es suficiente, puede incluir también carril
 				para bicicletas. Esto no era enteramente satisfactorio; los señores aún hacían lo que querían,
@@ -219,7 +219,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				pregunta me sorprendió mucho y me parecía que me habría sentido muy molesto si yo hubiera tenido que
 				formularla. Así que no te asustes. La casa en que vivían influía un poco en sus estremecimientos.</p>
 
-				<?php _showImg("/img/si-es-que-quieren-venir-para-ese-trabajo-id-1-153.jpg", "estabamos sin resuello");?>
+				<?php _showImg("/img/si-es-que-quieren-venir-para-ese-trabajo-id-1-153.jpg", "estabamos sin resuello", 800, 600);?>
 
 
 			<p>Y eran ahora 15 suficientemente fuertes como para mantener unida a Francia en un momento en que iba a ser
@@ -234,7 +234,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				XIX, Ramón Pardal2, Germán Somolinos d'Ardois3, Martínez Cortés4. Volvió corriendo a la casa, estaba al
 				lado y sus tíos cuando la vieron le preguntaron por dónde había ido a pasear.</p>
 				
-				<?php _showImg("/img/hacia-muchos-dias-que-no-me-escribia-id-1-48.jpg", "pero todo el tiempo ibamos a espiarla");?>
+				<?php _showImg("/img/hacia-muchos-dias-que-no-me-escribia-id-1-48.jpg", "pero todo el tiempo ibamos a espiarla", 800, 600);?>
 
 			<p>Vi a María enfrente de mí, con el vestido a rayas y el rostro tostado. Nadie puede decir qué habría
 				sucedido si los regimientos no hubieran recibido al poco tiempo la orden de marcha. Se cruzaban los
@@ -245,7 +245,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				inyectada de sangre y fanatismo. En ese momento, volvieron a mi mente aquellas antiguas esperanzas de
 				libertad, ya que tendría una pequeña embarcación a mi cargo.</p>
 				
-				<?php _showImg("/img/despues-se-refirio-a-la-historia-de-raimundo-id-1-166.jpg", "estaba dentro del orden de las cosas");?>
+				<?php _showImg("/img/despues-se-refirio-a-la-historia-de-raimundo-id-1-166.jpg", "estaba dentro del orden de las cosas", 800, 600);?>
 
 
 			<p>Una o dos veces se lamió los labios para beberla. Le expliqué que no tenía ninguna importancia y que si
@@ -253,7 +253,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				separados. Tenía siempre al despertar la sensación de estar desplomada en la cama con un millón de kilos
 				encima.</p>
 				
-				<?php _showImg("/img/tenemos-mas-de-esos-que-de-los-que-sirven-para-una-batalla-id-1-30.jpg", "y el viento traia olor a sal");?>
+				<?php _showImg("/img/tenemos-mas-de-esos-que-de-los-que-sirven-para-una-batalla-id-1-30.jpg", "y el viento traia olor a sal", 800, 600);?>
 
 			<p>Asimismo puede afirmarse que el dar es un medio para el recibir, que es el fin u objetivo; y por ende, el
 				dar es medial, y el recibir es final. Por ejemplo, en Black & Decker la aplicación del marketing para
@@ -261,7 +261,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				miles de individuos dentro y fuera de la organización. Masson dio un salto hacia adelante. Simplemente
 				tema miedo, era bien natural.</p>
 				
-				<?php _showImg("/img/nos-sentamos-los-tres-id-1-23.jpg", "bueno es la llave correcta");?>
+				<?php _showImg("/img/nos-sentamos-los-tres-id-1-23.jpg", "bueno es la llave correcta", 800, 600);?>
 
 
 			<p>Y lo que esperábamos juntos en realidad sólo me concernía a mí. Vamos a celebrar el <b>Dia del Blog</b>
@@ -282,7 +282,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				sillas hasta allí. Me hizo una ligera señal y dijo al instante que yo era inocente.</p>
 			<h2>El mejor concurso de SEO "Sock Data se come tu bocata"</h2>
 			
-			<?php _showImg("/img/los-techos-son-muy-altos-id-1-240.jpg", "Tipos de premios");?>
+			<?php _showImg("/img/los-techos-son-muy-altos-id-1-240.jpg", "Tipos de premios", 800, 600);?>
 
 
 			<p>La boca, grande y flexible, y sus dientes ferozmente desiguales, aunque sanos como yo jamás había visto
@@ -291,7 +291,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				negros. Su voz había recuperado el tono normal desde el momento en que ella había desaparecido–. Conté a
 				María la historia del viejo y se rió. Entretanto los negocios del comerciante prosperaban.</p>
 				
-				<?php _showImg("/img/el-otro-vecino-y-su-madre-seguian-mirandose-id-1-113.jpg", "bueno pues intentare cruzarlo andando");?>
+				<?php _showImg("/img/el-otro-vecino-y-su-madre-seguian-mirandose-id-1-113.jpg", "bueno pues intentare cruzarlo andando", 800, 600);?>
 
 
 			<p>Tenía calor con mi traje oscuro El viejecito, que se había cubierto, se quitó nuevamente el sombrero. El
@@ -304,7 +304,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				actividad Hermeneutica se aprovecha el Nivel Lingiiistico, de la Semiologia y de la Semantica, como un
 				primer nivel, previo a los niveles superiores.</p>
 				
-				<?php _showImg("/img/comenzo-el-interrogatorio-id-1-258.jpg", "en cuanto a lo demas en general no iba tan lejos");?>
+				<?php _showImg("/img/comenzo-el-interrogatorio-id-1-258.jpg", "en cuanto a lo demas en general no iba tan lejos", 800, 600);?>
 
 
 			<p>La realidad de la filosofía latinoamericana está en marcha; y, como América Latina, marcha hacía sí
@@ -350,7 +350,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				cada uno, cada objeto que en él se encontraba, y de cada objeto, todos los detalles, y de los detalles,
 				una incrustación, una grieta o un borde gastado, los colores y las imperfecciones.</p>
 				
-				<?php _showImg("/img/anselmo-le-seguia-a-la-distancia-de-unos-metros-id-1-259.jpg", "yo escuchaba y oia que se me juzgaba inteligente");?>
+				<?php _showImg("/img/anselmo-le-seguia-a-la-distancia-de-unos-metros-id-1-259.jpg", "yo escuchaba y oia que se me juzgaba inteligente", 800, 600);?>
 
 			<p>Como Carter no tenía ganas de encontrarse con ningún dhole, estaba muy atento a cualquier ruido que
 				sonara por la enorme masa de huesos que había a su alrededor. Ha llegado el tiempo de que aparezcan en
@@ -362,7 +362,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				intranquilos y desalentados.</p>
 			<h2>Sock Sata se come tu bocata bases del concurso en PDF</h2>
 			
-			<?php _showImg("/img/felipe-estaba-casado-desde-hacia-veinte-anos-id-1-240.jpg", "vio pasar a pablo por entre los arboles de Zaragoza");?>
+			<?php _showImg("/img/felipe-estaba-casado-desde-hacia-veinte-anos-id-1-240.jpg", "vio pasar a pablo por entre los arboles de Zaragoza", 800, 600);?>
 			
 			<p id="bases">
 				Aquí tienes las reglas del concurso en diferentes formatos: 
@@ -401,7 +401,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 				incluso como estructura formal sintetizadora de la pluralidad en que la razón puede ser racional, no es
 				la única figura de la razón.</p>
 				
-				<?php _showImg("/img/la-primera-era-la-mision-de-santa-maria-de-nieva-id-1-251.jpg", "en cuanto a lo demas en general no iba tan lejos");?>
+				<?php _showImg("/img/la-primera-era-la-mision-de-santa-maria-de-nieva-id-1-251.jpg", "en cuanto a lo demas en general no iba tan lejos", 800, 600);?>
 			
 
 			<p>Se vio la humareda y después se oyó el pitido del silbato. En aquella época apenas se relacionaba con su
@@ -438,7 +438,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 
 			<h2>Va por ti Alberto Sordi</h2>
 
-			<?php _showImg("/img/sockdatasecometubocata-va-por-ti-alberto-sordi.jpg", "Alberto Sordi, Dios del SEO");?>
+			<?php _showImg("/img/sockdatasecometubocata-va-por-ti-alberto-sordi.jpg", "Alberto Sordi, Dios del SEO", 800, 600);?>
 
 		
 			<?php if (!$amp):?>	
@@ -509,7 +509,7 @@ if(isset($_GET['amp']) && $_GET['amp'] == 1 )
 
 				sleep(3000).then(() => 
 				{
-					todir(document.querySelector('#tofooter'));
+				//	todir(document.querySelector('#tofooter'));
 				})
 
 				sleep(10000).then(() => 
