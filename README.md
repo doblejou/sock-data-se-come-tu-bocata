@@ -5,9 +5,10 @@
 <p>Listado de webs oficiales:<p>
 
 <ul>
-    <li><a title="SEO Sock Data se come tu bocata Web1" href="https://sockdatasecometubocata.info">sockdatasecometubocata.info</a></li>
-    <li><a title="SEO Sock Data se come tu bocata Web2" href="https://mum.is/sock-data-se-come-tu-bocata/">mum.is</a></li>
-    <li><a title="SEO Sock Data se come tu bocata Web3" href="https://funatics.es/2020/04/21/sock-data-se-come-tu-bocata/">funatics.es</a></li>
+    <li><a title="Sock Data se come tu bocata" href="https://mum.is/sock-data-se-come-tu-bocata/">mum.is</a></li>
+    <li>funatics.es</a></li>
+    <li>sockdatasecometubocata.info</li>
+    <li>seopositivo.net</li>
 </ul>
 
 <p>Aunque cabe suponer que mi primera reacción fuera de perplejidad ante una transformación del paisaje tan prodigiosa e inesperada, en realidad sentí más horror que asombro; pues había en la atmósfera y en la superficie putrefacto una calidad siniestra que me heló el corazón. Sin embargo, la palidez de rostro y rígida expresión del joven cazador indicaban a las claras que en su trayecto hasta la casa no habían sido pocos los signos fatales por él advertidos. Sin embargo, todavía nos queda hacer frente a una posible alternativa. El hecho de encontrar en la lejana Salem datos sobre aquella casa que tanto había significado en la historia de su propia familia, impresionó profundamente a Ward, quien decidió explorarla inmediatamente después de su regreso a Providence. Abrí el objetivo de mi cámara y tomé media docena de instantáneas del árbol. Pero Tillinghast me había estado observando, y decía algo. Un día fui a ver a un famoso etnólogo, y le divertí haciéndole extrañas preguntas sobre la antigua leyenda filistea en torno a Dagón, el Dios-Pez; pero en seguida me di cuenta de que era un hombre irremediablemente convencional, y dejé de preguntar. Luego más tarde fueron a visitar a seopositivo.net</p>
