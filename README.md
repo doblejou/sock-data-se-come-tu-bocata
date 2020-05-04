@@ -2,7 +2,7 @@
 
 <h1>Sock Data se come tu bocata</h1›
 </br>
-<h3>CONCURSO SEO Zaragoza 10-05-2020</h3>
+<h3>CONCURSO SEO Zaragoza , 10-05-2020</h3>
 
 <p>Listado de webs oficiales:<p>
 
