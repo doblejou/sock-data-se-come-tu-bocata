@@ -15,6 +15,8 @@ function _showImg($src, $alt, $w=800, $h=600)
         $cad .='</div>';
     }
 
+
+    
     echo $cad;
 }
 
