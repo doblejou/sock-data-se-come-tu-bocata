@@ -1,6 +1,6 @@
 <link rel="canonical" href="https://mum.is/sock-data-se-come-tu-bocata/" />
 <meta http-equiv="refresh" content="0; URL=https://mum.is/sock-data-se-come-tu-bocata/" >
-
+<meta name="google-site-verification" content="q8IQhisPyZ66qwxSiOmv1HDbFX2NLVRaN-acO8OK0Fc" />
 
 <h1>Sock Data se come tu bocata</h1›
 </br>
