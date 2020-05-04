@@ -4,9 +4,10 @@
 
 <h1>Sock Data se come tu bocata</h1›
 </br>
-<h3>CONCURSO SEO Zaragoza , 10-05-2020</h3>
+<h3>CONCURSO SEO Zaragoza, 10-05-2020</h3>
 
 <p>Listado de webs oficiales:<p>
+
 
 <ul>
     <li><a title="Sock Data se come tu bocata" href="https://mum.is/sock-data-se-come-tu-bocata/">mum.is</a></li>
